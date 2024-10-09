@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="image/logo.png" class="logo" /></a>
+
+      <div>
+        <ul id="orther">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <li>
+            <a href="login.html" class="icon" onclick="logout()">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#Let's talk</h2>
+      <p>LEAVE A MESSAGE, PRODUCT GOOD QUALITY</p>
+    </section>
+
+    <section id="contact-details" class>
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit one of our agency location or contact with us</h2>
+        <h3>Head office</h3>
+        <div>
+          <li>
+            <i class="fa-regular fa-map"></i>
+            <p>北京，中国</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-envelope"></i>
+            <p>phamnguyen0234@gmail.com</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <p>0911809129</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-clock"></i>
+            <p>8:00am - 17:00am</p>
+          </li>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391569.010282734!2d116.06780039046231!3d39.93841699575795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f05296e7142cb9%3A0xb9625620af0fa98a!2zQuG6r2MgS2luaCwgVHJ1bmcgUXXhu5Fj!5e0!3m2!1svi!2s!4v1728464015751!5m2!1svi!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="new" class="section-p1 section-m1">
+      <div class="newt">
+        <h4>Đăng ký để nhận đc bản tin mới</h4>
+        <p>
+          Sử dụng email để biết thêm về shop và những
+          <span>ưu đãi đặc biệt</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Email của bạn" />
+        <button class="normal">Đăng ký</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="image/logo.png" alt="" />
+        <h4>Contract</h4>
+        <p><strong>Địa chỉ:</strong> abc</p>
+        <p><strong>Điện thoại:</strong> 01234</p>
+        <p><strong>Giờ hoạt động:</strong> 08:00 -22:00, Mon - Fri</p>
+        <p>
+          <strong>Email:</strong
+          ><a href="mailto:phamnguyen0234@gmail.com">
+            phamnguyen0234@gmail.com
+          </a>
+        </p>
+        <div class="follow">
+          <h4>Theo dõi chúng tôi</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-weibo"></i>
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">Về chúng tôi</a>
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản và điều kiện</a>
+        <a href="#">Liên hệ với chúng tôi</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Đăng ký</a>
+        <a href="#">Xem giỏ hàng</a>
+        <a href="#">Danh sách mong muốn</a>
+        <a href="#">Hỗ trợ</a>
+      </div>
+      <div class="col install">
+        <h4>Dowload App</h4>
+        <p>From AppStore or GooglePlay</p>
+        <div class="row">
+          <img src="image/banner/app.jpg" alt="" />
+          <img src="image/banner/play.jpg" alt="" />
+        </div>
+        <p>Secured payment Gateways</p>
+        <img src="image/banner/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2024, PTN - HTML CSS</p>
+      </div>
+    </footer>
+
+    <script src="sripts.js"></script>
+  </body>
+</html>

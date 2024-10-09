@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="backtohome">
+      <a href="index.html">Back home</a>
+    </div>
+    <div class="container">
+      <div class="container-forms">
+        <div class="container-info">
+          <div class="info-item">
+            <p>Have an account?</p>
+            <button class="btn">Login</button>
+          </div>
+          <div class="info-item">
+            <p>Don't have an account?</p>
+            <button class="btn">Sign up</button>
+          </div>
+        </div>
+
+        <div class="container-form">
+          <form class="form-item login" action="">
+            <h1>Login</h1>
+            <input
+              type="text"
+              name="username"
+              id="loginUsername"
+              placeholder="Username"
+            />
+            <input
+              type="password"
+              id="loginPassword"
+              name="password"
+              placeholder="Password"
+            />
+            <div id="loginMessaage"></div>
+            <button type="submit" class="btn" onclick="login(event)">
+              Login
+            </button>
+          </form>
+
+          <form class="form-item signup" action="">
+            <h1>Sign up</h1>
+            <input
+              type="email"
+              name="Email"
+              id="regEmail"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              name="Fullname"
+              id="regFullname"
+              placeholder="Full name"
+            />
+            <input
+              type="text"
+              name="Username"
+              id="regUsername"
+              placeholder="Username"
+            />
+            <input
+              type="password"
+              name="Password"
+              id="regPassword"
+              placeholder="Password"
+            />
+
+            <div id="regMessage"></div>
+            <button class="btn" type="submit" onclick="reg(event)">
+              Signup
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/java/login.js"></script>
+  </body>
+</html>
