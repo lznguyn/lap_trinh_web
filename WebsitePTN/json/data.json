@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop Asus Vivobook Go 15 E1504FA R5 7520U/16GB/512GB",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 44990000,
+    "img": "../image/asus1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Laptop ASUS TUF Gaming A14 FA401WV-RG061WS",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 40990000,
+    "img": "../image/asus2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Apple MacBook Air M2 2022 8GB 256GB ",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 30990000,
+    "img": "../image/sp1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Apple MacBook Air M1 256GB 2020",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 18590000,
+    "img": "../image/sp2.jpg"
+  },
+  {
+    "id": 5,
+    "title": "MacBook Air M3 13 inch 2024 8GB - 256GB",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 18590000,
+    "img": "../image/sp3.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Apple MacBook Air M2 2022 8GB 256GB",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 18590000,
+    "img": "../image/sp4.jpg"
+  },
+  {
+    "id": 7,
+    "title": "MacBook Pro 14 M3 Pro 18GB - 512GB",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 18590000,
+    "img": "../image/sp5.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Laptop ASUS VivoBook Go 14 E1404FA-NK177W",
+    "description": "Nguyên hộp, đầy đủ phụ kiện từ nhà sản suất.Bảo hành pin 12 tháng.Bảo hành 24 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi phần cứng từ nhà sản xuất..Giá sản phẩm đãbao gồm VAT.",
+    "price": 18590000,
+    "img": "../image/asus3.jpg"
+  }
+]

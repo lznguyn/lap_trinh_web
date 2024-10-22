@@ -412,95 +412,95 @@ footer .copyright {
 }
 
 /*cart*/
-#cart table {
+.cart table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
   white-space: nowrap;
 }
-#cart table img {
+.cart table img {
   width: 70px;
 }
-#cart table td:nth-child(1) {
+.cart table td:nth-child(1) {
   width: 100px;
   text-align: center;
 }
-#cart table td:nth-child(2) {
+.cart table td:nth-child(2) {
   width: 150px;
   text-align: center;
 }
-#cart table td:nth-child(3) {
+.cart table td:nth-child(3) {
   width: 350px;
   text-align: center;
 }
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6) {
+.cart table td:nth-child(4),
+.cart table td:nth-child(5),
+.cart table td:nth-child(6) {
   width: 150px;
   text-align: center;
 }
 
-#cart table td:nth-child(5) input {
+.cart table td:nth-child(5) input {
   width: 70px;
   padding: 10px 5px 10px 15px;
 }
 
-#cart table thead {
+.cart table thead {
   border: 1px solid #e2e9e1;
   border-left: none;
   border-right: none;
 }
-#cart table thead td {
+.cart table thead td {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
   padding: 18px 0;
 }
-#cart table tbody tr td {
+.cart table tbody tr td {
   padding-top: 15px;
 }
-#cart table tbody td {
+.cart table tbody td {
   font-size: 13px;
 }
 
-#cart-add {
+.cart-add {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#coupon {
+.coupon {
   width: 50%;
   margin-bottom: 30px;
 }
-#coupon h3,
-#total h3 {
+.coupon h3,
+.total h3 {
   padding-bottom: 15px;
 }
-#coupon input {
+.coupon input {
   padding: 10px 20px;
   outline: none;
   width: 60%;
   margin-right: 10px;
   border: 1px solid #e2e9e1;
 }
-#coupon button,
-#total button {
+.coupon button,
+.total button {
   background-color: #088178;
   color: #fff;
   padding: 12px 20px;
 }
-#total {
+.total {
   width: 50%;
   margin-bottom: 30px;
   border: 1px solid #e2e9e1;
   padding: 30px;
 }
-#total table {
+.total table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 20px;
 }
-#total table td {
+.total table td {
   width: 50%;
   border: 1px solid #e2e9e1;
   padding: 10px;
@@ -620,12 +620,12 @@ footer .copyright {
 }
 
 /*Single*/
-#prodetails {
+.prodetails {
   display: flex;
   margin-top: 20px;
 }
 
-#prodetails .s-p-image {
+.prodetails .s-p-image {
   width: 40%;
   margin: 50px;
 }
@@ -637,36 +637,36 @@ footer .copyright {
   flex-basis: 24%;
   cursor: pointer;
 }
-#prodetails .single-pro-details {
+.prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
 }
-#prodetails .single-pro-details h4 {
+.prodetails .single-pro-details h4 {
   padding: 40px 0 20px 0;
 }
-#prodetails .single-pro-details h2 {
+.prodetails .single-pro-details h2 {
   font-size: 26px;
 }
-#prodetails .single-pro-details select {
+.prodetails .single-pro-details select {
   display: block;
   padding: 5px 10px;
   margin-bottom: 10px;
 }
-#prodetails .single-pro-details input {
+.prodetails .single-pro-details input {
   width: 50px;
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
   margin-right: 10px;
 }
-#prodetails .single-pro-details button {
+.prodetails .single-pro-details button {
   background-color: #088178;
   color: #fff;
 }
-#prodetails .single-pro-details input:focus {
+.prodetails .single-pro-details input:focus {
   outline: none;
 }
-#prodetails .single-pro-details span {
+.prodetails .single-pro-details span {
   line-height: 25px;
 }
 /*blog*/
