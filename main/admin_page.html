@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom admin css file link -->
+    <link rel="stylesheet" href="admin_style.css">
+</head>
+
+<body>
+
+    <!-- Messages section -->
+    
+    <header class="header">
+        <div class="flex">
+            <a href="admin_page.html" class="logo">Admin<span>Panel</span></a>
+
+            <nav class="navbar">
+                <a href="admin_page.html">Trang chủ</a>
+                <a href="admin_products.html">Sản phẩm</a>
+                <a href="admin_orders.html">Đặt hàng</a>
+                <a href="admin_users.html">Users</a>
+                <a href="admin_contacts.html">Tin nhắn</a>
+            </nav>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+            </div>
+
+            <div class="account-box">
+                <p>Tên người dùng : <span>Admin Name</span></p>
+                <p>email : <span>admin@example.com</span></p>
+                <a href="logout.html" class="delete-btn">Logout</a>
+                <div> <a href="login.html">Đăng nhập</a> | <a href="register.html">Đăng xuất</a></div>
+            </div>
+        </div>
+    </header>
+    <!-- Replace dynamic PHP include with a static reference -->
+    <!-- <?php include 'admin_header.php'; ?> -->
+    <header class="header">
+        <!-- Add your static header content here -->
+    </header>
+
+    <!-- Admin dashboard section starts -->
+    <section class="dashboard">
+
+        <h1 class="title">Bảng điều khiển</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>VNĐ 1,000,000</h3>
+                <p>Tổng tiền đang xử lý</p>
+            </div>
+
+            <div class="box">
+                <h3>VNĐ 2,500,000</h3>
+                <p>Thanh toán thành công</p>
+            </div>
+
+            <div class="box">
+                <h3>15</h3>
+                <p>Tổng đơn hàng</p>
+            </div>
+
+            <div class="box">
+                <h3>50</h3>
+                <p>Tổng sản phẩm</p>
+            </div>
+
+            <div class="box">
+                <h3>30</h3>
+                <p>Tài khoản User</p>
+            </div>
+
+            <div class="box">
+                <h3>5</h3>
+                <p>Tài khoản Admin</p>
+            </div>
+
+            <div class="box">
+                <h3>35</h3>
+                <p>Tổng tài khoản</p>
+            </div>
+
+            <div class="box">
+                <h3>10</h3>
+                <p>Thông báo mới</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Admin dashboard section ends -->
+
+    <!-- custom admin js file link -->
+    <script src="admin_script.js"></script>
+
+</body>
+
+</html>

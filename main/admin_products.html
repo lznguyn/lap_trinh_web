@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Products</title>
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Custom Admin CSS File Link -->
+    <link rel="stylesheet" href="admin_style.css" />
+    <style>
+      .show-products .box-container .box img {
+        height: 25rem;
+        width: 25rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="flex">
+        <a href="admin_page.html" class="logo">Admin<span>Panel</span></a>
+
+        <nav class="navbar">
+          <a href="admin_page.html">Trang chủ</a>
+          <a href="admin_products.html">Sản phẩm</a>
+          <a href="admin_orders.html">Đặt hàng</a>
+          <a href="admin_users.html">Users</a>
+          <a href="admin_contacts.html">Tin nhắn</a>
+        </nav>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+        </div>
+
+        <div class="account-box">
+          <p>Tên người dùng : <span>Admin Name</span></p>
+          <p>email : <span>admin@example.com</span></p>
+          <a href="logout.html" class="delete-btn">Logout</a>
+          <div>
+            <a href="login.html">Đăng nhập</a> |
+            <a href="register.html">Đăng xuất</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Static header content, replace PHP include -->
+    <header>
+      <!-- Static Admin Header Here -->
+    </header>
+
+    <!-- Product CRUD Section Starts -->
+    <section class="add-products">
+      <h1 class="title">Manage Products</h1>
+      <form action="" method="post" enctype="multipart/form-data">
+        <h3>Add Product</h3>
+        <input
+          type="text"
+          name="name"
+          class="box"
+          placeholder="Product Name"
+          required
+        />
+        <input
+          type="number"
+          min="0"
+          name="price"
+          class="box"
+          placeholder="Product Price"
+          required
+        />
+        <select name="category" class="box" required>
+          <option value="" disabled selected>Select Category</option>
+          <option value="men">Mac</option>
+          <option value="women">Asus</option>
+        </select>
+        <input
+          type="file"
+          name="image"
+          accept="image/jpg, image/jpeg, image/png"
+          class="box"
+          required
+        />
+        <input
+          type="submit"
+          value="Add Product"
+          name="add_product"
+          class="btn"
+        />
+      </form>
+    </section>
+    <!-- Product CRUD Section Ends -->
+
+    <!-- Show Products -->
+    <section class="show-products">
+      <div class="box-container">
+        <!-- Example of Static Product -->
+        <div class="box">
+          <img src="uploaded_img/sample_image.jpg" alt="" />
+          <div class="name">Sample Product Name</div>
+          <div class="price">1,000,000 VNĐ</div>
+          <div class="category">Mac 10</div>
+          <a href="#" class="option-btn">Update</a>
+          <a
+            href="#"
+            class="delete-btn"
+            onclick="return confirm('Are you sure you want to delete this product?');"
+            >Delete</a
+          >
+        </div>
+        <!-- Add more static products as needed -->
+      </div>
+    </section>
+
+    <!-- Edit Product Form -->
+    <section class="edit-product-form">
+      <!-- Static example of Edit Product Form -->
+      <form action="" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="update_p_id" value="1" />
+        <input type="hidden" name="update_old_image" value="sample_image.jpg" />
+        <img src="uploaded_img/sample_image.jpg" alt="" />
+        <input
+          type="text"
+          name="update_name"
+          value="Sample Product Name"
+          class="box"
+          required
+          placeholder="Enter Product Name"
+        />
+        <input
+          type="number"
+          name="update_price"
+          value="1000000"
+          min="0"
+          class="box"
+          required
+          placeholder="Enter Product Price"
+        />
+        <select name="update_category" class="box" required>
+          <option value="men" selected>Mac</option>
+          <option value="women">Asus</option>
+        </select>
+        <input
+          type="file"
+          class="box"
+          name="update_image"
+          accept="image/jpg, image/jpeg, image/png"
+        />
+        <input type="submit" value="Update" name="update_product" class="btn" />
+        <input
+          type="reset"
+          value="Cancel"
+          id="close-update"
+          class="option-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Custom Admin JS File Link -->
+    <script src="admin_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>orders</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- custom admin css file link -->
+    <link rel="stylesheet" href="admin_style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="flex">
+        <a href="admin_page.html" class="logo">Admin<span>Panel</span></a>
+
+        <nav class="navbar">
+          <a href="admin_page.html">Trang chủ</a>
+          <a href="admin_products.html">Sản phẩm</a>
+          <a href="admin_orders.html">Đặt hàng</a>
+          <a href="admin_users.html">Users</a>
+          <a href="admin_contacts.html">Tin nhắn</a>
+        </nav>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+        </div>
+
+        <div class="account-box">
+          <p>Tên người dùng : <span>Admin Name</span></p>
+          <p>email : <span>admin@example.com</span></p>
+          <a href="logout.html" class="delete-btn">Logout</a>
+          <div>
+            <a href="login.html">Đăng nhập</a> |
+            <a href="register.html">Đăng xuất</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Include admin header -->
+    <!-- This was dynamically included in PHP, now it's commented out -->
+    <!-- <?php include 'admin_header.php'; ?> -->
+
+    <section class="orders">
+      <h1 class="title">Đã đặt hàng</h1>
+
+      <div class="box-container">
+        <!-- Static order example -->
+        <div class="box">
+          <p>user id : <span>1</span></p>
+          <p>Ngày đặt hàng : <span>2024-10-20</span></p>
+          <p>Số điện thoại : <span>0123456789</span></p>
+          <p>Email : <span>a@example.com</span></p>
+          <p>Địa chỉ giao hàng: <span>123 Đường ABC, Hà Nội</span></p>
+          <p>Sản phẩm đặt hàng : <span>3 items</span></p>
+          <p>Tổng : <span> 1,000,000 VNĐ</span></p>
+          <p>Hình thức thanh toán : <span>Chuyển khoản</span></p>
+          <form action="" method="post">
+            <input type="hidden" name="order_id" value="1" />
+            <select name="update_payment">
+              <option value="" selected disabled>Đang duyệt</option>
+              <option value="Đang duyệt">Đang duyệt</option>
+              <option value="Thành công">Thành công</option>
+            </select>
+            <input type="submit" value="Cập nhật" class="option-btn" />
+            <a
+              href="#"
+              onclick="return confirm('Bạn có muốn xóa đơn đặt hàng này?');"
+              class="delete-btn"
+              >Xóa</a
+            >
+          </form>
+        </div>
+
+        <!-- Add more static orders as needed -->
+
+        <p class="empty">Chưa có đơn hàng nào được đặt!</p>
+      </div>
+    </section>
+
+    <!-- custom admin js file link -->
+    <script src="admin_script.js"></script>
+  </body>
+</html>

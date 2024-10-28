@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom Admin CSS File Link -->
+    <link rel="stylesheet" href="admin_style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="flex">
+            <a href="admin_page.html" class="logo">Admin<span>Panel</span></a>
+
+            <nav class="navbar">
+                <a href="admin_page.html">Trang chủ</a>
+                <a href="admin_products.html">Sản phẩm</a>
+                <a href="admin_orders.html">Đặt hàng</a>
+                <a href="admin_users.html">Users</a>
+                <a href="admin_contacts.html">Tin nhắn</a>
+            </nav>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+            </div>
+
+            <div class="account-box">
+                <p>Tên người dùng : <span>Admin Name</span></p>
+                <p>email : <span>admin@example.com</span></p>
+                <a href="logout.html" class="delete-btn">Logout</a>
+                <div> <a href="login.html">Đăng nhập</a> | <a href="register.html">Đăng xuất</a></div>
+            </div>
+        </div>
+    </header>
+    <!-- Static header content, replace PHP include -->
+    <header>
+        <!-- Static Admin Header Here -->
+    </header>
+
+    <section class="users">
+        <h1 class="title">Tài khoản</h1>
+
+        <div class="box-container">
+            <!-- Example of Static User -->
+            <div class="box">
+                <p> User id : <span>1</span> </p>
+                <p> Tên người dùng : <span>John Doe</span> </p>
+                <p> Email : <span>johndoe@example.com</span> </p>
+                <p> Loại tài khoản : <span style="color: var(--orange);">admin</span> </p>
+                <a href="#" onclick="return confirm('Delete this user?');" class="delete-btn">Xóa tài khoản</a>
+            </div>
+            <!-- Add more static users as needed -->
+            <div class="box">
+                <p> User id : <span>2</span> </p>
+                <p> Tên người dùng : <span>Jane Doe</span> </p>
+                <p> Email : <span>janedoe@example.com</span> </p>
+                <p> Loại tài khoản : <span>user</span> </p>
+                <a href="#" onclick="return confirm('Delete this user?');" class="delete-btn">Xóa tài khoản</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Admin JS File Link -->
+    <script src="admin_script.js"></script>
+
+</body>
+
+</html>
