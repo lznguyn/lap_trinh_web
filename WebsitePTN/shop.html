@@ -12,6 +12,41 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .input-group {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      }
+      #search-inp {
+      display: block;
+      visibility: visible;
+      }
+      .input-group input[type="text"] {
+      width: 100%;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-right: none;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      }
+      .input-group button {
+     padding: 10px 15px;
+     font-size: 16px;
+      background-color: #f0c14b; /* Yellow color */
+     border: 1px solid #ccc;
+     border-left: none;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+}
+
+    .input-group button:hover {
+      background-color: #e2b13c; /* Darker yellow on hover */
+    }
+    </style>
   </head>
   <body>
     <section id="header">
@@ -47,8 +82,25 @@
     </section>
 
     <section id="product1" class="section-p1">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          id="search-inp"
+          placeholder="Search...."
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary bg-warning"
+          type="button"
+          id="button-addon2"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
       
-      <div class="pro-container">
+      <div class="pro-container" id="body">
         <div class="pro" onclick="window.location.href='Sproduct.html'">
           <img src="image/asus1.jpg" />
           <div class="des">
@@ -145,5 +197,6 @@
 
     <script src="sripts.js"></script>
     <script src="java/shop.js"></script>
+    <script src="java/function.js"></script>
   </body>
 </html>
